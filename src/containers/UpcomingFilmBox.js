@@ -38,7 +38,7 @@ export default class UpcomingFilmBox extends Component {
 
     render() {
         return (
-            <div>
+            <div className='container'>
                 <Country />
                 <FilmList films={this.state.films}/>
                 <MoreReleases />
