@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Country from '../components/Country';
 import FilmList from '../components/FilmList';
+import MoreReleases from '../components/MoreReleases';
 
 export default class UpcomingFilmBox extends Component {
   constructor(props){
@@ -40,6 +41,7 @@ export default class UpcomingFilmBox extends Component {
             <div>
                 <Country />
                 <FilmList films={this.state.films}/>
+                <MoreReleases />
             </div>
         )
     }
